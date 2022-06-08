@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+
+      body{
+        width: 100%;
+        margin: 0;
+        padding: 1em;
+      }
+
+      #count{
+        color: rgb(225, 20, 20);
+      }
+
+      #siteCount{
+        color:rgb(225, 20, 20)
+      }
+
+      h4{
+        display: block;
+        width: max-content;
+      }
+
+      button{
+        background-color: rgb(0, 180, 0);
+        padding: 0.6em 2em;
+        border-radius: 0.5em;
+        border: none;
+        color: white;
+        font-weight: bold;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      button:hover{
+        cursor: pointer;
+      }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h3>Ad Blocker</h3>
+    <h4><span id="count"></span> total ads blocked</h4>
+    <h4><span id="siteCount"></span> ads blocked on current site</h4>
+    <button>Clear Counts</button>
+  <script src="./popup.js" ></script>
+</body>
+</html>
